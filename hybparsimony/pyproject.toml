@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hybparsimony"
+version = "0.0.2"
+authors = [
+  { name="Jose Divasón", email="jose.divason@unirioja.es" },
+  { name="Francisco Javier Martínez de Pisón", email="fjmartin@unirioja.es" },
+]
+dependencies = ["pandas", "scikit-learn", "dill"]
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jodivaso/hybparsimony"
